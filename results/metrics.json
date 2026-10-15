@@ -1,0 +1,18 @@
+{
+  "test_size": 905,
+  "identity_baseline": {
+    "BLEU": 69.79,
+    "chrF": 81.71,
+    "style_marker_rate": 0.22,
+    "marker_recall": 0.11,
+    "exact_copy_rate": 100.0
+  },
+  "fine_tuned_rut5": {
+    "loss": 0.592628,
+    "BLEU": 71.17,
+    "chrF": 81.52,
+    "style_marker_rate": 34.81,
+    "marker_recall": 13.74,
+    "exact_copy_rate": 54.48
+  }
+}
